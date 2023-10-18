@@ -1,0 +1,186 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.25cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{TealBlue}{HTML}{06425E}
+\definecolor{Blue}{HTML}{279EFF}
+\definecolor{Navy}{HTML}{0C356A}
+\definecolor{Black}{HTML}{121212}
+
+\colorlet{name}{Navy}
+\colorlet{tagline}{Navy}
+\colorlet{heading}{Navy}
+\colorlet{headingrule}{Blue}
+% \colorlet{subheading}{LuxuryGold}
+\colorlet{accent}{TealBlue}
+\colorlet{emphasis}{TealBlue}
+\colorlet{body}{Black}
+
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+
+\begin{document}
+\name{Abdallah Tantawy}
+\tagline{Computer Science Student}
+\photoR{3.5cm}{photo}
+\personalinfo{
+  \phone{+973\ 3504\ 2486}
+  \email{abdallah0tantawy@gmail.com}
+  \github{abdallah-t}
+  \linkedin{abdallah-tantawy}
+  \location{Isa Town, Bahrain}
+  }
+
+\makecvheader
+
+\AtBeginEnvironment{itemize}{\normalsize}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Summary}
+Energetic Computer Science Student with a passion for Python programming, web development, and video editing. Skilled math tutor with strong communication abilities. Committed to continual growth, driven by a proactive work ethic and a hunger for learning.
+
+\cvsection{Projects}
+
+\cvevent{Daily Quotes Python Script for Instagram}{\underline{\href{https://github.com/abdallah-t/quote-bot}{https://github.com/abdallah-t/quote-bot}}}{}{}
+
+\begin{itemize}
+\item Automated the creation and posting of quotes on Instagram
+\item Integrated GitHub Actions for scheduling and execution
+\item Employed Pillow for image editing and Instagrapi for posting
+\item \textbf{\textit{Python, Pillow, Instagrapi, GitHub Actions}}
+\end{itemize}
+
+\divider
+
+\cvevent{Peerlearning Academy}{\underline{\href{https://github.com/abdallah-t/PeerLearningAcademy}{https://github.com/abdallah-t/PeerLearningAcademy}}}{}{}
+
+\begin{itemize}
+  \item Engaging math educational animated videos with Manim
+  \item Interactive LaTeX math assignments
+  \item \textbf{\textit{Python, Manim, LaTeX}}
+  \end{itemize}
+  
+\cvsection{Courses \& Certificates}
+
+% \cvachievement{\faReact}{The Complete 2023 Web Development Bootcamp (62 Hours -- Ongoing)}{Skills obtained (so far): HTML -- CSS}
+
+% \divider
+
+\cvachievement{\faPython}{100 Days of Code: The Complete Python Pro Bootcamp for 2023 (55 Hours -- Ongoing)}{Skills obtained (so far): Automation -- Data Science -- Web Srapping -- OOP}
+
+\divider
+
+\cvachievement{\faLinux}{Using Python to Interact with the Operating System (7 weeks)}{Skills obtained: Bash Scripting -- Regex -- Python Testing -- Managing Data and Processes}
+
+
+\cvsection{Education}
+
+\cvevent{Bachelor's Degree\\Computer Science.}{University of Technology Bahrain}{Sept 2023 -- Jun 2027}{}
+
+\divider
+
+\cvevent{Secondary School Certificate.\\Math and Physics.}{Isa Town Sec. Boys' School}{Sept 2022 -- Jun 2023}{}
+\begin{itemize}
+    \item \textbf{\textit{GPA: 98.0\%}}
+\end{itemize}
+
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the currentc column
+\newpage
+
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+% \cvsection{Life Philosophy}
+% \begin{quote}
+% ``If you don't have any shadows, you're not standing in the light.''
+% \end{quote}
+
+\cvsection{Skills}
+
+\cvevent{Programming Languages}{}{}{}
+\cvtag{HTML}
+\cvtag{CSS}
+\cvtag{Python}
+\cvtag{JavaScript}
+
+\divider \smallskip
+
+\cvevent{Other Technologies}{}{}{}
+\cvtag{LaTeX}
+\cvtag{Linux}
+\cvtag{Git/GitHub}
+
+\cvtag{GitHub Actions}
+
+\divider \smallskip
+
+\cvevent{Editing}{}{}{}
+\cvtag{DaVinci Resolve}
+\cvtag{Audacity}
+
+\divider\smallskip
+
+\cvevent{Soft Skills}{}{}{}
+
+\cvtag{Self Learning}
+\cvtag{Tutoring Skills}
+
+\cvtag{Communication}
+
+\cvsection{Volunteering}
+
+
+\cvevent{Math Tutor}{Peer Learning Team}{Aug 2023 -- Ongoing}{}
+\begin{itemize}
+\item Math Video Creation: Crafting animated videos to simplify Math364 for 12th graders.
+\item Interactive Assignments: Designing engaging assignments that reinforce Math364 learning alongside the videos.
+\end{itemize}
+\divider
+
+\cvevent{Math Tutor}{Isa Town Boys' School}{Sept 2022 -- Jun 2023}{}
+\begin{itemize}
+\item Helped fellow students understand math better by offering effective tutoring, making concepts crystal clear for exams.
+\item Assisted classmates before exams by providing comprehensive reviews and explanations, boosting their confidence and results.
+\end{itemize}
+
+\cvsection{Languages}
+
+\cvachievement{\faLanguage}{English}{Advanced}
+
+\cvachievement{\faLanguage}{Arabic}{Native}
+
+
+
+
+
+\newpage
+
+\end{paracol}
+
+\end{document}
