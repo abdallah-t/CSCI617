@@ -11,7 +11,7 @@ geometry: margin=2cm
 
 **Question 2:** Explain the difference between volatile and non-volatile memory.
 
-- volatile memory is a type of memory that loses its content when the power is turned off, while non-volatile memory is a type of memory that keeps its content when the power is turned off.
+- Volatile memory is a type of memory that loses its content when the power is turned off, while non-volatile memory is a type of memory that retains its content when the power is turned off.
 
 **Question 3:** True or False: Secondary memory is more expensive than primary memory.
 
@@ -21,79 +21,79 @@ geometry: margin=2cm
 
 - False
 
-**Question 5:** Continue: in digital transfer, hardware can be only
+**Question 5:** Complete the sentence: In digital transfer, hardware can be only
 
-- physically transferred
+- Physically transferred.
 
 **Question 6:** Advantages of cache memory are:
 
-a. can only read the programs and data that is stored in it
+a. It can only read the programs and data that are stored in it.
 
-b. it is faster than the main memory
+b. It is faster than the main memory.
 
-c. It is faster than the main memory, When compared to the main memory, it takes less time to access it, It keeps the programs that can be run in a short amount of time. and It stores data for temporary use.
+c. It is faster than the main memory. When compared to the main memory, it takes less time to access it. It keeps the programs that can be run in a short amount of time, and it stores data for temporary use.
 
-d. It keeps the programs that can be run in a short amount of time. and When compared to the main memory, it takes less time to access it.
+d. It keeps the programs that can be run in a short amount of time. When compared to the main memory, it takes less time to access it.
 
-- c. It is faster than the main memory, When compared to the main memory, it takes less time to access it, It keeps the programs that can be run in a short amount of time. and It stores data for temporary use.
+- c. It is faster than the main memory. When compared to the main memory, it takes less time to access it. It keeps the programs that can be run in a short amount of time, and it stores data for temporary use.
 
-**Question 7:** True or False: Case cooling uses air cooling system for the removal of heat from inside of case of the system.
+**Question 7:** True or False: Case cooling uses an air cooling system to remove heat from inside the case of the system.
 
 - True
 
-**Question 8:** True or False: Between the CPU and the main memory cache memory serves as a buffer.
+**Question 8:** True or False: Between the CPU and the main memory, cache memory serves as a buffer.
 
 - True
 
 **Question 9:** Disadvantages of cache memory are:
 
-a. The size of the cache (amount of data it can store) is usually large
+a. The size of the cache (the amount of data it can store) is usually large.
 
-b. It is faster than the main memory
+b. It is faster than the main memory.
 
-c. it stores data in temporary use
+c. It stores data for temporary use.
 
-d. it is very expensive because of the semiconductors used in it
+d. It is very expensive because of the semiconductors used in it.
 
-- d. it is very expensive because of the semiconductors used in it
+- d. It is very expensive because of the semiconductors used in it.
 
-**Question 10:** True or False: hardware can be seen but cannot be touched.
-
-- False
-
-**Question 11:** True or False: a computer is an electrical device used to process and store data for further use. It can save information, retrieve it, and process it.
+**Question 10:** True or False: Hardware can be seen and touched.
 
 - True
 
-**Question 12:** For the CPU to access data from the auxiliary memory it should:
+**Question 11:** True or False: A computer is an electrical device used to process and store data for further use. It can save information, retrieve it, and process it.
 
-a. it can access directly
+- True
 
-b. transferred to the cache memory.
+**Question 12:** For the CPU to access data from the auxiliary memory, it should:
 
-c. transferred to the main memory.
+a. It can be accessed directly.
 
-d. transferred to the secondary memory.
+b. Be transferred to the cache memory.
 
-- c. transferred to the main memory.
+c. Be transferred to the main memory.
+
+d. Be transferred to the secondary memory.
+
+- c. Be transferred to the main memory.
 
 **Question 13:** How to erase data in EPROM?
 
-- by exposing it to ultraviolet light
+- By exposing it to ultraviolet light.
 
-**Question 14:** With expansion cards you can make your computer:
+**Question 14:** With expansion cards, you can make your computer:
 
-a. change the charger
+a. Change the charger.
 
-b. harder to fix
+b. Harder to fix.
 
-c. more powerful, add more memory, add more ports.
+c. More powerful, add more memory, add more ports.
 
-d. common target of malware
+d. A common target of malware.
 
-- c. more powerful, add more memory, add more ports.
+- c. More powerful, add more memory, add more ports.
 
-**Question 15:**
+**Question 15:** (Question 15 is empty)
 
 **Question 16:** True or False: A CPU cannot access secondary memory directly.
 
@@ -103,68 +103,70 @@ d. common target of malware
 
 - False
 
-**Question 18:** True or False: Storage capacity of secondary memory is small.
+**Question 18:** True or False: The storage capacity of secondary memory is small.
 
 - False
 
-**Question 19:** True or False: in replacement if software got damaged it can be reinstalled.
+**Question 19:** True or False: In replacement, if software got damaged, it can be reinstalled.
 
 - True
 
 **Question 20:** Pros of MAC are:
 
-a. Affordability
+a. Affordability.
 
-b. Hard to fix
+b. Hard to fix.
 
-c. High upfront price
+c. High upfront price.
 
-d. Stability and reliability
+d. Stability and reliability.
 
-- d. Stability and reliability
+- d. Stability and reliability.
 
 **Question 21:** Secondary memory is:
 
-a. auxiliary memory and backup memory and non-volatile memory
+a. Auxiliary memory and backup memory and non-volatile memory.
 
-b. non-volatile memory only
+b. Non-volatile memory only.
 
-c. auxiliary memory only
+c. Auxiliary memory only.
 
-d. can only read the programs and data that is stored on it.
+d. Can only read the programs and data that are stored on it.
 
-- a. auxiliary memory and backup memory and non-volatile memory
+- a. Auxiliary memory and backup memory and non-volatile memory.
 
-**Question 22:** How many 128 *8 memory chips are required to provide a memory capacity of 4096* 16?
+**Question 22:** How many 128x8 memory chips are required to provide a memory capacity of 4096x16?
 
 - 64
 
-**Question 23:** True or False: Hardware is a set of instructions which are to be executed by CPU to do the intended task.
+**Question 23:** True or False: Hardware consists of a set of instructions to be executed by the CPU to perform the intended task.
 
 - False
 
-**Question 24:** True or False: Input Devices, Output Devices, Storage Devices, Internal components of CPU and motherboard, are under the software category.
+**Question 24:** True or False: Input Devices, Output Devices, Storage Devices, Internal components of the CPU, and the motherboard are categorized under software.
 
 - False
 
-**Question 25:** True or False: Cache Memory used to store the data and programs that the CPU uses the most frequently.
+**Question 25:** True or False: Cache Memory is used to store the data and programs that the CPU uses most frequently.
 
 - True
 
 **Question 26:** Name the advantages of cache memory.
 
-- It is faster than the main memory When compared to the main memory, it takes less time to access it, It keeps the programs that can be run in a short amount of time. and It stores data for temporary use.
+- It is faster than the main memory. When compared to the main memory, it takes less time to access. It keeps the programs that can be run in a short amount of time, and it stores data for temporary use.
 
-**Question 27:** Why computers use cooling systems?
+**Question 27:** Why do computers use cooling systems?
 
-- to prevent overheating
+- To prevent overheating.
 
 **Question 28:** What is computer memory?
 
-a. stores information based on the power supply
+a. Stores information based on the power supply.
 
-b. it is the same as memory in a human brain. It is used to store data and directions.
+b. It is the same as memory in a human brain. It is used to store data and instructions.
 
-c. It is a non-volatile memory.
+c. It is non-volatile memory.
 
-b. it is volatile memory
+d. It is volatile memory.
+
+- b. It is the same as memory in a human brain. It is used to store data and instructions.
