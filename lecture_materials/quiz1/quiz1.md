@@ -167,6 +167,5 @@ b. It is the same as memory in a human brain. It is used to store data and instr
 
 c. It is non-volatile memory.
 
-d. It is volatile memory.
-
+d. It is volatile memory. 
 - b. It is the same as memory in a human brain. It is used to store data and instructions.

@@ -1,0 +1,341 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.15)  22 OCT 2023 09:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex"
+(c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-11>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks17
+\labelindent=\skip50
+\enit@outerparindent=\dimen141
+\enit@toks=\toks18
+\enit@inbox=\box51
+\enit@count@id=\count193
+\enitdp@description=\count194
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count195
+\l__pdf_internal_box=\box52
+) (quiz1.aux)
+\openout1 = `quiz1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:14: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.14     \item A
+                ndroid
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:15: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.15     \item i
+                OS
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:21: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.21     \item V
+                olatile memory is a type of memory that loses its content wh...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:27: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.27     \item F
+                alse
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:33: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.33     \item F
+                alse
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:39: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.39     \item P
+                hysically transferred.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[1
+
+{C:/Users/Abdullah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:45: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.45     \item I
+                t is faster than the main memory. When compared to the main ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:51: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.51     \item T
+                rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:57: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.57     \item T
+                rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:63: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.63     \item I
+                t is very expensive because of the semiconductors used in it.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:69: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.69     \item T
+                rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:75: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.75     \item T
+                rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:81: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.81     \item B
+                e transferred to the main memory.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[2]
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:87: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.87     \item B
+                y exposing it to ultraviolet light.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:93: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.93     \item M
+                ore powerful, add more memory, add more ports.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:102: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.102     \item T
+                 rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:108: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.108     \item F
+                 alse
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:114: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.114     \item F
+                 alse
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:120: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.120     \item T
+                 rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:126: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.126     \item S
+                 tability and reliability.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[3]
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:132: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.132     \item A
+                 uxiliary memory and backup memory and non-volatile memory.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:138: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.138     \item 6
+                 4
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:144: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.144     \item F
+                 alse
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:150: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.150     \item F
+                 alse
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:156: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.156     \item T
+                 rue
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:162: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.162     \item I
+                 t is faster than the main memory. When compared to the main...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:168: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.168     \item T
+                 o prevent overheating.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[4]
+c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz1/quiz1.tex:174: Missing number, treated as zero.
+<to be read again> 
+                   \c@* 
+l.174     \item I
+                 t is the same as memory in a human brain. It is used to sto...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[5] (quiz1.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-11>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 796 strings out of 475465
+ 15268 string characters out of 5770270
+ 1922248 words of memory out of 5000000
+ 22147 multiletter control sequences out of 15000+600000
+ 561709 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,6n,50p,430b,214s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on quiz1.pdf (5 pages, 62633 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
