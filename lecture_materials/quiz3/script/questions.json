@@ -1,0 +1,390 @@
+[
+  {
+    "question": "What type of app helps you to get work done, such as word processors, spreadsheets, and presentation apps?",
+    "answers": [
+      "a. Productivity app",
+      "c. Communication app",
+      "b. Entertainment app",
+      "d. Business app"
+    ],
+    "correct_answer": "a. Productivity app"
+  },
+  {
+    "question": "What type of display uses liquid crystals to create images?",
+    "answers": [
+      "a. Retina",
+      "c. AMOLED",
+      "b. OLED",
+      "d. LCD"
+    ],
+    "correct_answer": "d. LCD"
+  },
+  {
+    "question": "The display is the screen that you use to interact with the mobile device.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What is the purpose of an AAA server?",
+    "answers": [
+      "a. To store and forward email messages between                                            users",
+      "c. To provide authentication, authorization,                                            and accounting services for users on a network",
+      "b. To manage printing jobs for users on a network",
+      "d. To collect and analyze data about network                                            traffic and performance"
+    ],
+    "correct_answer": "c. To provide authentication, authorization,                                            and accounting services for users on a network"
+  },
+  {
+    "question": "What type of accessory protects the mobile device from scratches and damage?",
+    "answers": [
+      "a. External storage",
+      "c. Stylus pen",
+      "b. Case",
+      "d. Screen protector"
+    ],
+    "correct_answer": "b. Case"
+  },
+  {
+    "question": "Adobe Illustrator is a popular graphics and multimedia software application that is used to create and edit vector graphics.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What type of synchronization method allows you to wirelessly synchronize your mobile device with other devices?",
+    "answers": [
+      "a. Bluetooth                                            synchronization",
+      "c. Cloud synchronization",
+      "b. USB synchronization",
+      "d. All of the above"
+    ],
+    "correct_answer": "a. Bluetooth                                            synchronization"
+  },
+  {
+    "question": "What type of display uses organic light-emitting diodes to create images?",
+    "answers": [
+      "a. LCD",
+      "c. AMOLED",
+      "b. OLED",
+      "d. Retina"
+    ],
+    "correct_answer": "b. OLED"
+  },
+  {
+    "question": "The mobile device's battery can be replaced by the user",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "Web servers can be used to host web applications, such as CRM systems and ERP systems.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What are some examples of popular web servers?",
+    "answers": [
+      "a. IIS",
+      "c. Nginx",
+      "b. Apache",
+      "d. All of the above"
+    ],
+    "correct_answer": "d. All of the above"
+  },
+  {
+    "question": "What is the most popular AAA server software?",
+    "answers": [
+      "a. FreeRADIUS",
+      "c. All of the above",
+      "b. Microsoft RADIUS Server",
+      "d. Cisco ISE"
+    ],
+    "correct_answer": "d. Cisco ISE"
+  },
+  {
+    "question": "ERP software is used to manage the core business processes of a business, such as accounting, manufacturing, and sales.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What is the most common type of file server",
+    "answers": [
+      "a. Windows Server",
+      "c. FreeNAS",
+      "b. Linux",
+      "d. macOS Server"
+    ],
+    "correct_answer": "a. Windows Server"
+  },
+  {
+    "question": "What type of synchronization method allows you to connect your mobile device to your computer and synchronize your data using a USB cable?",
+    "answers": [
+      "a. USB synchronization",
+      "c. Cloud                                            synchronization",
+      "b. All of the above",
+      "d. Bluetooth synchronization"
+    ],
+    "correct_answer": "a. USB synchronization"
+  },
+  {
+    "question": "What are some of the benefits of using a network monitoring server?",
+    "answers": [
+      "a. Optimize network performance",
+      "c. Identify and troubleshoot network problems",
+      "b. Plan for future network growth",
+      "d. All of the above"
+    ],
+    "correct_answer": "d. All of the above"
+  },
+  {
+    "question": "What is the brain of the mobile device?",
+    "answers": [
+      "a. Memory",
+      "c. Storage",
+      "b. Display",
+      "d. Processor"
+    ],
+    "correct_answer": "d. Processor"
+  },
+  {
+    "question": "What type of accessory allows you to expand the storage capacity of the mobile device?",
+    "answers": [
+      "a. External storage",
+      "c. Screen protector",
+      "b. Stylus pen",
+      "d. Case"
+    ],
+    "correct_answer": "a. External storage"
+  },
+  {
+    "question": "What type of accessory allows you to interact with the mobile device more precisely?",
+    "answers": [
+      "a. Case",
+      "c. Screen protector",
+      "b. Stylus pen",
+      "d. External storage"
+    ],
+    "correct_answer": "b. Stylus pen"
+  },
+  {
+    "question": "What type of memory stores the data and code that is being used by the processor?",
+    "answers": [
+      "a. RAM",
+      "c. Display",
+      "b. ROM",
+      "d. Storage"
+    ],
+    "correct_answer": "a. RAM"
+  },
+  {
+    "question": "The battery provides power to the mobile device.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What type of accessory allows you to charge the mobile device on the go?",
+    "answers": [
+      "a. Case",
+      "c. Stylus pen",
+      "b. Screen protector",
+      "d. Portable charger"
+    ],
+    "correct_answer": "d. Portable charger"
+  },
+  {
+    "question": "What is the purpose of a web server?",
+    "answers": [
+      "a. To authenticate users and grant or deny                                            access to resources",
+      "c. To store and deliver web pages to users                                            over the internet",
+      "b. To collect and analyze data about network                                            traffic and performance",
+      "d. To manage printing jobs for users on a                                            network"
+    ],
+    "correct_answer": "c. To store and deliver web pages to users                                            over the internet"
+  },
+  {
+    "question": "What type of business software helps businesses manage their customer interactions?",
+    "answers": [
+      "a. CRM                                            software",
+      "c. SCM software",
+      "b. All of the above",
+      "d. ERP software"
+    ],
+    "correct_answer": "a. CRM                                            software"
+  },
+  {
+    "question": "What are some of the benefits of using an AAA server?",
+    "answers": [
+      "a. All of the above",
+      "c. Increased manageability",
+      "b. Reduced IT costs",
+      "d. Improved security"
+    ],
+    "correct_answer": "a. All of the above"
+  },
+  {
+    "question": "Graphics and multimedia software can be used to create and edit images, videos, and audio files.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What type of synchronization service stores your data in the cloud and makes it available on all of your devices?",
+    "answers": [
+      "a. USB synchronization",
+      "c. All of the above",
+      "b. Cloud synchronization",
+      "d. Bluetooth synchronization"
+    ],
+    "correct_answer": "b. Cloud synchronization"
+  },
+  {
+    "question": "What type of accessory protects the display of the mobile device from scratches and fingerprints?",
+    "answers": [
+      "a. Case",
+      "c. Screen protector",
+      "b. External storage",
+      "d. Stylus pen"
+    ],
+    "correct_answer": "c. Screen protector"
+  },
+  {
+    "question": "What are some of the benefits of using a file server?",
+    "answers": [
+      "a. Reduced IT costs",
+      "c. Easier file sharing and collaborationEasier file sharing and collaboration",
+      "b. Centralized file storage and backup",
+      "d. All of the above"
+    ],
+    "correct_answer": "d. All of the above"
+  },
+  {
+    "question": "What is the purpose of an email server?",
+    "answers": [
+      "a. To collect and analyze data about network                                            traffic and performance",
+      "c. To authenticate users and grant or deny                                            access to resources",
+      "b. To store and forward email messages between                                            users",
+      "d. To manage printing jobs for users on a                                            network"
+    ],
+    "correct_answer": "b. To store and forward email messages between                                            users"
+  },
+  {
+    "question": "Network monitoring servers can be used to monitor the performance of network devices, such as routers and switches.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What is the most popular web server software in the world?",
+    "answers": [
+      "a. IIS",
+      "c. Apache",
+      "b. Nginx",
+      "d. All of the above"
+    ],
+    "correct_answer": "d. All of the above"
+  },
+  {
+    "question": "What is the main purpose of a file server?",
+    "answers": [
+      "a. To manage printing jobs for users on a                                            network",
+      "c. To collect and analyze data about network                                            traffic and performance",
+      "b. To authenticate users and grant or deny                                            access to resources",
+      "d. To                                            store and provide access to files for users on a network"
+    ],
+    "correct_answer": "d. To                                            store and provide access to files for users on a network"
+  },
+  {
+    "question": "CRM software is used to track and manage customer interactions.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "AAA servers can be used to implement multi-factor authentication (MFA) to improve security.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What are some examples of popular email servers?",
+    "answers": [
+      "a. Outlook.com",
+      "c. Gmail",
+      "b. All of the above",
+      "d. Exchange"
+    ],
+    "correct_answer": "b. All of the above"
+  },
+  {
+    "question": "It is important to only install apps from trusted sources, such as the official app stores for your device.",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True"
+  },
+  {
+    "question": "What is the most popular email server software for businesses?",
+    "answers": [
+      "a. Google Workspace",
+      "c. All of the above",
+      "b. Microsoft Exchange",
+      "d. Microsoft Office 365"
+    ],
+    "correct_answer": "d. Microsoft Office 365"
+  },
+  {
+    "question": "What is the purpose of a network monitoring server?",
+    "answers": [
+      "a. To manage printing jobs for users on a                                            network",
+      "c. To store and forward email messages between                                            users",
+      "b. To authenticate users and grant or deny                                            access to resources",
+      "d. To collect and analyze data about network                                            traffic and performance"
+    ],
+    "correct_answer": "d. To collect and analyze data about network                                            traffic and performance"
+  },
+  {
+    "question": "What type of app allows you to communicate with others, such as messaging apps, social media apps, and video conferencing apps?",
+    "answers": [
+      "a. Business app",
+      "c. Communication app",
+      "b. Productivity app",
+      "d. Entertainment app"
+    ],
+    "correct_answer": "c. Communication app"
+  },
+  {
+    "question": "What is the most popular network monitoring server software?",
+    "answers": [
+      "a. Zabbix",
+      "c. All of the above",
+      "b. Prometheus",
+      "d. Nagios"
+    ],
+    "correct_answer": "c. All of the above"
+  }
+]
