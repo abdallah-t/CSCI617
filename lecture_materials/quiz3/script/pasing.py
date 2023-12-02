@@ -11,6 +11,10 @@ ODD_ROW_CLASS = 'r0'
 EVEN_ROW_CLASS = 'r1'
 JSON_OUTPUT_FILE = 'questions.json'
 
+def clean_text(text):
+    """Remove new lines and extra spaces from the text."""
+    return " ".join(text.strip().replace("\n", "").split())
+
 def read_html(file_path):
     with open(file_path, 'r') as file:
         return file.read()
@@ -21,32 +25,35 @@ def extract_questions(soup):
 
     for question in questions_soup:
         text_question = question.find("span")
-        questions.append(text_question.text.strip() if text_question else question.text.strip())
+        questions.append(text_question if text_question else question)
+    
+    # Remove new lines and extra spaces
+    questions = [clean_text(question.text) for question in questions]
 
-    return [" ".join(question.strip().replace("\n", "").split()) for question in questions]
+    return questions
 
-def extract_answers(soup):
-    answers_soup = soup.find_all(class_=ANSWER_CLASS)
-    all_answers = []
-    all_correct_answers = []
+def extract_choices(soup):
+    choices_soup = soup.find_all(class_=ANSWER_CLASS)
 
-    for answer in answers_soup:
-        correct_answer = answer.find(class_=CORRECT_ANSWER_CLASS)
+    all_questions_choices = []
+
+    for choices in choices_soup:
+        choice_elements = choices.find_all(class_=ODD_ROW_CLASS) + choices.find_all(class_=EVEN_ROW_CLASS)
+        formatted_choices = [clean_text(choice.text) for choice in choice_elements]
+        all_questions_choices.append(formatted_choices)
+
+    return [[clean_text(answer) for answer in answers] for answers in all_questions_choices]
+
+def extract_correct_choices(soup):
+    choices_soup = soup.find_all(class_=ANSWER_CLASS)
+    all_questions_correct_choice = []
+
+    for choices in choices_soup:
+        correct_answer = choices.find(class_=CORRECT_ANSWER_CLASS)
         if correct_answer:
-            all_correct_answers.append(correct_answer.text.strip())
+            all_questions_correct_choice.append(correct_answer.text)
 
-        q_all_answers = answer.find_all(class_=ODD_ROW_CLASS)
-        q_all_answers.extend(answer.find_all(class_=EVEN_ROW_CLASS))
-
-        all_answers.append([q.text.strip().replace("\n", "") for q in q_all_answers])
-
-    return (
-        [
-            [answer.strip().replace("\n", "") for answer in answers]
-            for answers in all_answers
-        ],
-        [answer.strip().replace("\n", "") for answer in all_correct_answers]
-    )
+    return [clean_text(answer) for answer in all_questions_correct_choice]
 
 def create_question_dict_list(questions, all_answers, all_correct_answers):
     question_dict_list = []
@@ -70,18 +77,9 @@ def main():
     soup = BeautifulSoup(html_content, 'html.parser')
 
     questions = extract_questions(soup)
-    all_answers, all_correct_answers = extract_answers(soup)
+    all_answers = extract_choices(soup)
+    all_correct_answers = extract_correct_choices(soup)
 
-    all_answers = [
-        [' '.join(answer.split()) for answer in answers]
-        for answers in all_answers
-    ]
-
-    all_correct_answers = [
-        ' '.join(answer.split())
-        for answer in all_correct_answers
-    ]
-    
     question_dict_list = create_question_dict_list(questions, all_answers, all_correct_answers)
 
     pprint.pprint(question_dict_list)
