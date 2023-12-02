@@ -30,12 +30,12 @@
   {
     "question": "What is the purpose of an AAA server?",
     "answers": [
-      "a. To store and forward email messages between                                            users",
-      "c. To provide authentication, authorization,                                            and accounting services for users on a network",
+      "a. To store and forward email messages between users",
+      "c. To provide authentication, authorization, and accounting services for users on a network",
       "b. To manage printing jobs for users on a network",
-      "d. To collect and analyze data about network                                            traffic and performance"
+      "d. To collect and analyze data about network traffic and performance"
     ],
-    "correct_answer": "c. To provide authentication, authorization,                                            and accounting services for users on a network"
+    "correct_answer": "c. To provide authentication, authorization, and accounting services for users on a network"
   },
   {
     "question": "What type of accessory protects the mobile device from scratches and damage?",
@@ -58,12 +58,12 @@
   {
     "question": "What type of synchronization method allows you to wirelessly synchronize your mobile device with other devices?",
     "answers": [
-      "a. Bluetooth                                            synchronization",
+      "a. Bluetooth synchronization",
       "c. Cloud synchronization",
       "b. USB synchronization",
       "d. All of the above"
     ],
-    "correct_answer": "a. Bluetooth                                            synchronization"
+    "correct_answer": "a. Bluetooth synchronization"
   },
   {
     "question": "What type of display uses organic light-emitting diodes to create images?",
@@ -133,7 +133,7 @@
     "question": "What type of synchronization method allows you to connect your mobile device to your computer and synchronize your data using a USB cable?",
     "answers": [
       "a. USB synchronization",
-      "c. Cloud                                            synchronization",
+      "c. Cloud synchronization",
       "b. All of the above",
       "d. Bluetooth synchronization"
     ],
@@ -210,22 +210,22 @@
   {
     "question": "What is the purpose of a web server?",
     "answers": [
-      "a. To authenticate users and grant or deny                                            access to resources",
-      "c. To store and deliver web pages to users                                            over the internet",
-      "b. To collect and analyze data about network                                            traffic and performance",
-      "d. To manage printing jobs for users on a                                            network"
+      "a. To authenticate users and grant or deny access to resources",
+      "c. To store and deliver web pages to users over the internet",
+      "b. To collect and analyze data about network traffic and performance",
+      "d. To manage printing jobs for users on a network"
     ],
-    "correct_answer": "c. To store and deliver web pages to users                                            over the internet"
+    "correct_answer": "c. To store and deliver web pages to users over the internet"
   },
   {
     "question": "What type of business software helps businesses manage their customer interactions?",
     "answers": [
-      "a. CRM                                            software",
+      "a. CRM software",
       "c. SCM software",
       "b. All of the above",
       "d. ERP software"
     ],
-    "correct_answer": "a. CRM                                            software"
+    "correct_answer": "a. CRM software"
   },
   {
     "question": "What are some of the benefits of using an AAA server?",
@@ -278,12 +278,12 @@
   {
     "question": "What is the purpose of an email server?",
     "answers": [
-      "a. To collect and analyze data about network                                            traffic and performance",
-      "c. To authenticate users and grant or deny                                            access to resources",
-      "b. To store and forward email messages between                                            users",
-      "d. To manage printing jobs for users on a                                            network"
+      "a. To collect and analyze data about network traffic and performance",
+      "c. To authenticate users and grant or deny access to resources",
+      "b. To store and forward email messages between users",
+      "d. To manage printing jobs for users on a network"
     ],
-    "correct_answer": "b. To store and forward email messages between                                            users"
+    "correct_answer": "b. To store and forward email messages between users"
   },
   {
     "question": "Network monitoring servers can be used to monitor the performance of network devices, such as routers and switches.",
@@ -306,12 +306,12 @@
   {
     "question": "What is the main purpose of a file server?",
     "answers": [
-      "a. To manage printing jobs for users on a                                            network",
-      "c. To collect and analyze data about network                                            traffic and performance",
-      "b. To authenticate users and grant or deny                                            access to resources",
-      "d. To                                            store and provide access to files for users on a network"
+      "a. To manage printing jobs for users on a network",
+      "c. To collect and analyze data about network traffic and performance",
+      "b. To authenticate users and grant or deny access to resources",
+      "d. To store and provide access to files for users on a network"
     ],
-    "correct_answer": "d. To                                            store and provide access to files for users on a network"
+    "correct_answer": "d. To store and provide access to files for users on a network"
   },
   {
     "question": "CRM software is used to track and manage customer interactions.",
@@ -360,12 +360,12 @@
   {
     "question": "What is the purpose of a network monitoring server?",
     "answers": [
-      "a. To manage printing jobs for users on a                                            network",
-      "c. To store and forward email messages between                                            users",
-      "b. To authenticate users and grant or deny                                            access to resources",
-      "d. To collect and analyze data about network                                            traffic and performance"
+      "a. To manage printing jobs for users on a network",
+      "c. To store and forward email messages between users",
+      "b. To authenticate users and grant or deny access to resources",
+      "d. To collect and analyze data about network traffic and performance"
     ],
-    "correct_answer": "d. To collect and analyze data about network                                            traffic and performance"
+    "correct_answer": "d. To collect and analyze data about network traffic and performance"
   },
   {
     "question": "What type of app allows you to communicate with others, such as messaging apps, social media apps, and video conferencing apps?",

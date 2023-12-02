@@ -40,10 +40,11 @@ def extract_answers(soup):
 
         all_answers.append([q.text.strip().replace("\n", "") for q in q_all_answers])
 
-
-
     return (
-        [[answer.strip().replace("\n", "") for answer in answers] for answers in all_answers],
+        [
+            [answer.strip().replace("\n", "") for answer in answers]
+            for answers in all_answers
+        ],
         [answer.strip().replace("\n", "") for answer in all_correct_answers]
     )
 
@@ -71,6 +72,16 @@ def main():
     questions = extract_questions(soup)
     all_answers, all_correct_answers = extract_answers(soup)
 
+    all_answers = [
+        [' '.join(answer.split()) for answer in answers]
+        for answers in all_answers
+    ]
+
+    all_correct_answers = [
+        ' '.join(answer.split())
+        for answer in all_correct_answers
+    ]
+    
     question_dict_list = create_question_dict_list(questions, all_answers, all_correct_answers)
 
     pprint.pprint(question_dict_list)
