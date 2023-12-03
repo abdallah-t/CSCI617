@@ -9,9 +9,9 @@ ANSWER_CLASS = 'answer'
 CORRECT_ANSWER_CLASS = 'correct'
 ODD_ROW_CLASS = 'r0'
 EVEN_ROW_CLASS = 'r1'
-JSON_OUTPUT_FILE = 'questions.json'
 AUTHOR = "Abdallah Tantawy"
 TITLE = "Quiz 3"
+GENERATED_FILE_NAME = "quiz3"
 
 def clean_text(text):
     """Remove new lines and extra spaces from the text."""
@@ -131,20 +131,21 @@ def main():
 
     question_dict_list = create_question_dict_list(questions, all_answers, all_correct_answers)
 
-    pprint.pprint(question_dict_list)
 
-    export_to_json(question_dict_list, JSON_OUTPUT_FILE)
-    print(f'Data exported to {JSON_OUTPUT_FILE}')
+    export_to_json(question_dict_list, f"{GENERATED_FILE_NAME}.json")
+    print(f'Data exported to {GENERATED_FILE_NAME}.json')
     
     latex_code = convert_to_latex(question_dict_list)
-    with open("questions.tex", "w") as file:
+    with open(f"{GENERATED_FILE_NAME}.tex", "w") as file:
         file.write(latex_code)
 
     flashcards = convert_to_flashcards(question_dict_list)
-    print(flashcards)
+    print(f'Flashcards exported to {GENERATED_FILE_NAME}.txt')
     
-    with open("questions.txt", "w") as file:
+    with open(f"{GENERATED_FILE_NAME}.txt", "w") as file:
         file.write(flashcards)
+    print(f'LaTeX file has been made in {GENERATED_FILE_NAME}.tex')
+
 
 
 

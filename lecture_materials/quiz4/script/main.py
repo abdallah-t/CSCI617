@@ -9,7 +9,9 @@ ANSWER_CLASS = 'answer'
 CORRECT_ANSWER_CLASS = 'correct'
 ODD_ROW_CLASS = 'r0'
 EVEN_ROW_CLASS = 'r1'
-JSON_OUTPUT_FILE = 'questions.json'
+AUTHOR = "Abdallah Tantawy"
+TITLE = "Quiz 4"
+GENERATED_FILE_NAME = "quiz4"
 
 def clean_text(text):
     """Remove new lines and extra spaces from the text."""
@@ -42,7 +44,14 @@ def extract_choices(soup):
         formatted_choices = [clean_text(choice.text) for choice in choice_elements]
         all_questions_choices.append(formatted_choices)
 
-    return [[clean_text(answer) for answer in answers] for answers in all_questions_choices]
+    all_questions_choices = [[clean_text(answer) for answer in answers] for answers in all_questions_choices]
+
+    # Swap the second and third choices to fix the order
+    for answers in all_questions_choices:
+        if len(answers) == 4:
+            answers[2], answers[1] = answers[1], answers[2]
+
+    return all_questions_choices
 
 def extract_correct_choices(soup):
     choices_soup = soup.find_all(class_=ANSWER_CLASS)
@@ -74,8 +83,13 @@ def export_to_json(data, output_file):
 
 def convert_to_latex(questions):
     latex_code = r"\documentclass{exam}" + "\n\n"
+    latex_code += rf"\title{{{TITLE}}}" + "\n"
+    latex_code += rf"\author{{{AUTHOR}}}" + "\n"
+    latex_code += r"\date{\today}" + "\n\n"
     latex_code += r"\begin{document}" + "\n\n"
+    latex_code += r"\maketitle" + "\n\n"
     latex_code += r"\begin{questions}" + "\n\n"
+    latex_code += r"\printanswers" + "\n\n"
 
     for idx, question in enumerate(questions, start=1):
         latex_code += fr"\question {question['question']}" + "\n"
@@ -96,8 +110,16 @@ def convert_to_latex(questions):
 
     return latex_code
 
+def convert_to_flashcards(questions):
+    flashcards = ""
+    for question in questions:
+        flashcards += f"{question['question']} "
+        for answer in question["answers"]:
+            flashcards += f"{answer} "
+        flashcards += f'>> {question["correct_answer"]}\n'
+    
+    return flashcards
 
-# Write LaTeX code to a file
 
 def main():
     html_content = read_html(HTML_FILE_PATH)
@@ -109,14 +131,22 @@ def main():
 
     question_dict_list = create_question_dict_list(questions, all_answers, all_correct_answers)
 
-    pprint.pprint(question_dict_list)
 
-    export_to_json(question_dict_list, JSON_OUTPUT_FILE)
-    print(f'Data exported to {JSON_OUTPUT_FILE}')
+    export_to_json(question_dict_list, f"{GENERATED_FILE_NAME}.json")
+    print(f'json data exported to {GENERATED_FILE_NAME}.json')
     
     latex_code = convert_to_latex(question_dict_list)
-    with open("questions.tex", "w") as file:
+    with open(f"{GENERATED_FILE_NAME}.tex", "w") as file:
         file.write(latex_code)
+
+    flashcards = convert_to_flashcards(question_dict_list)
+    print(f'Flashcard data exported to {GENERATED_FILE_NAME}.txt')
+    
+    with open(f"{GENERATED_FILE_NAME}.txt", "w") as file:
+        file.write(flashcards)
+    
+    print(f'LaTeX file has been made in {GENERATED_FILE_NAME}.tex')
+
 
 
 
