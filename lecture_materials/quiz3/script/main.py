@@ -132,20 +132,18 @@ def main():
     question_dict_list = create_question_dict_list(questions, all_answers, all_correct_answers)
 
 
-    export_to_json(question_dict_list, f"{GENERATED_FILE_NAME}.json")
-    print(f'Data exported to {GENERATED_FILE_NAME}.json')
+    export_to_json(question_dict_list, f"..\{GENERATED_FILE_NAME}.json")
+    print(f'json data exported to {GENERATED_FILE_NAME}.json')
     
     latex_code = convert_to_latex(question_dict_list)
-    with open(f"{GENERATED_FILE_NAME}.tex", "w") as file:
+    with open(f"..\{GENERATED_FILE_NAME}.tex", "w") as file:
         file.write(latex_code)
-
-    flashcards = convert_to_flashcards(question_dict_list)
-    print(f'Flashcards exported to {GENERATED_FILE_NAME}.txt')
-    
-    with open(f"{GENERATED_FILE_NAME}.txt", "w") as file:
-        file.write(flashcards)
     print(f'LaTeX file has been made in {GENERATED_FILE_NAME}.tex')
 
+    flashcards = convert_to_flashcards(question_dict_list)
+    with open(fr"..\{GENERATED_FILE_NAME}.txt", "w") as file:
+        file.write(flashcards)
+    print(f'Flashcard data exported to {GENERATED_FILE_NAME}.txt')
 
 
 
