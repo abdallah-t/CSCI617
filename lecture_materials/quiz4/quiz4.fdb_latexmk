@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701568981 "c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz3/script/questions.tex" "questions.pdf" "questions" 1701568983 0
+["pdflatex"] 1701574571 "c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz4/quiz4.tex" "quiz4.pdf" "quiz4" 1701574572 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -23,11 +23,11 @@
   "C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
   "C:/Users/Abdullah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693103307 6111104 863319e5a2cbae8d8078f192cf0f6381 ""
   "C:/Users/Abdullah/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1697346362 24901540 159ee0b2efb99f5028794b46f4e0fa88 ""
-  "c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz3/script/questions.tex" 1701568970 10061 a03acef510fbad64ab8d7614fc66eeb0 ""
-  "questions.aux" 1701568983 10614 f05aab3b5f29d41ae6d6fa08a1ac4e0b "pdflatex"
-  "questions.tex" 1701568970 10061 a03acef510fbad64ab8d7614fc66eeb0 ""
+  "c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz4/quiz4.tex" 1701571615 7755 e2fcdb008806489d725e514dc12f21ba ""
+  "quiz4.aux" 1701574572 6520 262727db33d9dd81bb9e2e14ebdcffd0 "pdflatex"
+  "quiz4.tex" 1701571615 7755 e2fcdb008806489d725e514dc12f21ba ""
   (generated)
-  "questions.aux"
-  "questions.log"
-  "questions.pdf"
+  "quiz4.aux"
+  "quiz4.log"
+  "quiz4.pdf"
   (rewritten before read)

@@ -1,6 +1,6 @@
-PWD c:\Users\Abdullah\OneDrive - University of Technology Bahrain\Documents\MasterFolder\Academic life\uni\UTB\trimester 1\CSCI617\lecture_materials\quiz4\script
+PWD c:\Users\Abdullah\OneDrive - University of Technology Bahrain\Documents\MasterFolder\Academic life\uni\UTB\trimester 1\CSCI617\lecture_materials\quiz4
 INPUT C:\Users\Abdullah\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Abdullah\OneDrive - University of Technology Bahrain\Documents\MasterFolder\Academic life\uni\UTB\trimester 1\CSCI617\lecture_materials\quiz4\script\quiz4.tex
+INPUT c:\Users\Abdullah\OneDrive - University of Technology Bahrain\Documents\MasterFolder\Academic life\uni\UTB\trimester 1\CSCI617\lecture_materials\quiz4\quiz4.tex
 OUTPUT quiz4.log
 INPUT C:\Program Files\MiKTeX\tex\latex\exam\exam.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\exam\exam.cls

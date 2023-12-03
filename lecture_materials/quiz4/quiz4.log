@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.15)  3 DEC 2023 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.10.15)  3 DEC 2023 06:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz4/script/questions.tex"
-(c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz4/script/questions.tex
+**"c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz4/quiz4.tex"
+(c:/Users/Abdullah/OneDrive - University of Technology Bahrain/Documents/MasterFolder/Academic life/uni/UTB/trimester 1/CSCI617/lecture_materials/quiz4/quiz4.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (C:\Program Files\MiKTeX\tex/latex/exam\exam.cls
@@ -108,49 +108,55 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box52
-) (questions.aux)
-\openout1 = `questions.aux'.
+) (quiz4.aux)
+\openout1 = `quiz4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <12> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 10.
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 17.
  [1
 
-{C:/Users/Abdullah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
+{C:/Users/Abdullah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4]
 This exam contains 25 questions with 0 parts, 0 subparts, and 0 subsubparts.
-(questions.aux)
+(quiz4.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1761 strings out of 475465
- 29086 string characters out of 5770270
+ 1788 strings out of 475465
+ 29337 string characters out of 5770270
  1931248 words of memory out of 5000000
- 23118 multiletter control sequences out of 15000+600000
- 558377 words of font info for 37 fonts, out of 8000000 for 9000
+ 23136 multiletter control sequences out of 15000+600000
+ 561412 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,10n,52p,419b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on questions.pdf (3 pages, 56657 bytes).
+ 49i,10n,52p,408b,384s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on quiz4.pdf (4 pages, 79237 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
