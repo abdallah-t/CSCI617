@@ -1,0 +1,29 @@
+PWD c:\Users\Abdullah\OneDrive - University of Technology Bahrain\Documents\MasterFolder\Academic life\uni\UTB\trimester 1\CSCI617\lecture_materials\quiz4\script
+INPUT C:\Users\Abdullah\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Abdullah\OneDrive - University of Technology Bahrain\Documents\MasterFolder\Academic life\uni\UTB\trimester 1\CSCI617\lecture_materials\quiz4\script\questions.tex
+OUTPUT questions.log
+INPUT C:\Program Files\MiKTeX\tex\latex\exam\exam.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\exam\exam.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\questions.aux
+INPUT .\questions.aux
+INPUT questions.aux
+OUTPUT questions.aux
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT questions.pdf
+INPUT C:\Users\Abdullah\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT questions.aux
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb

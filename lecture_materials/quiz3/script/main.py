@@ -10,6 +10,8 @@ CORRECT_ANSWER_CLASS = 'correct'
 ODD_ROW_CLASS = 'r0'
 EVEN_ROW_CLASS = 'r1'
 JSON_OUTPUT_FILE = 'questions.json'
+AUTHOR = "Abdallah Tantawy"
+TITLE = "Quiz 3"
 
 def clean_text(text):
     """Remove new lines and extra spaces from the text."""
@@ -42,7 +44,14 @@ def extract_choices(soup):
         formatted_choices = [clean_text(choice.text) for choice in choice_elements]
         all_questions_choices.append(formatted_choices)
 
-    return [[clean_text(answer) for answer in answers] for answers in all_questions_choices]
+    all_questions_choices = [[clean_text(answer) for answer in answers] for answers in all_questions_choices]
+
+    # Swap the second and third choices to fix the order
+    for answers in all_questions_choices:
+        if len(answers) == 4:
+            answers[2], answers[1] = answers[1], answers[2]
+
+    return all_questions_choices
 
 def extract_correct_choices(soup):
     choices_soup = soup.find_all(class_=ANSWER_CLASS)
@@ -72,6 +81,46 @@ def export_to_json(data, output_file):
     with open(output_file, 'w') as json_file:
         json.dump(data, json_file, indent=2)
 
+def convert_to_latex(questions):
+    latex_code = r"\documentclass{exam}" + "\n\n"
+    latex_code += rf"\title{{{TITLE}}}" + "\n"
+    latex_code += rf"\author{{{AUTHOR}}}" + "\n"
+    latex_code += r"\date{\today}" + "\n\n"
+    latex_code += r"\begin{document}" + "\n\n"
+    latex_code += r"\maketitle" + "\n\n"
+    latex_code += r"\begin{questions}" + "\n\n"
+    latex_code += r"\printanswers" + "\n\n"
+
+    for idx, question in enumerate(questions, start=1):
+        latex_code += fr"\question {question['question']}" + "\n"
+        latex_code += r"\begin{checkboxes}" + "\n"
+
+        for answer in question["answers"]:
+            is_correct = answer == question["correct_answer"]
+            if is_correct:
+                latex_code += fr"\CorrectChoice {answer}" + "\n"
+            else:
+                latex_code += fr"\choice {answer}" + "\n"
+            
+
+        latex_code += r"\end{checkboxes}" + "\n\n"
+
+    latex_code += r"\end{questions}" + "\n\n"
+    latex_code += r"\end{document}"
+
+    return latex_code
+
+def convert_to_flashcards(questions):
+    flashcards = ""
+    for question in questions:
+        flashcards += f"{question['question']} "
+        for answer in question["answers"]:
+            flashcards += f"{answer} "
+        flashcards += f'>> {question["correct_answer"]}\n'
+    
+    return flashcards
+
+
 def main():
     html_content = read_html(HTML_FILE_PATH)
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -86,6 +135,19 @@ def main():
 
     export_to_json(question_dict_list, JSON_OUTPUT_FILE)
     print(f'Data exported to {JSON_OUTPUT_FILE}')
+    
+    latex_code = convert_to_latex(question_dict_list)
+    with open("questions.tex", "w") as file:
+        file.write(latex_code)
+
+    flashcards = convert_to_flashcards(question_dict_list)
+    print(flashcards)
+    
+    with open("questions.txt", "w") as file:
+        file.write(flashcards)
+
+
+
 
 if __name__ == "__main__":
     main()

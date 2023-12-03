@@ -1,0 +1,41 @@
+What type of app helps you to get work done, such as word processors, spreadsheets, and presentation apps? a. Productivity app b. Entertainment app c. Communication app d. Business app >> a. Productivity app
+What type of display uses liquid crystals to create images? a. Retina b. OLED c. AMOLED d. LCD >> d. LCD
+The display is the screen that you use to interact with the mobile device. True False >> True
+What is the purpose of an AAA server? a. To store and forward email messages between users b. To manage printing jobs for users on a network c. To provide authentication, authorization, and accounting services for users on a network d. To collect and analyze data about network traffic and performance >> c. To provide authentication, authorization, and accounting services for users on a network
+What type of accessory protects the mobile device from scratches and damage? a. External storage b. Case c. Stylus pen d. Screen protector >> b. Case
+Adobe Illustrator is a popular graphics and multimedia software application that is used to create and edit vector graphics. True False >> True
+What type of synchronization method allows you to wirelessly synchronize your mobile device with other devices? a. Bluetooth synchronization b. USB synchronization c. Cloud synchronization d. All of the above >> a. Bluetooth synchronization
+What type of display uses organic light-emitting diodes to create images? a. LCD b. OLED c. AMOLED d. Retina >> b. OLED
+The mobile device's battery can be replaced by the user True False >> True
+Web servers can be used to host web applications, such as CRM systems and ERP systems. True False >> True
+What are some examples of popular web servers? a. IIS b. Apache c. Nginx d. All of the above >> d. All of the above
+What is the most popular AAA server software? a. FreeRADIUS b. Microsoft RADIUS Server c. All of the above d. Cisco ISE >> d. Cisco ISE
+ERP software is used to manage the core business processes of a business, such as accounting, manufacturing, and sales. True False >> True
+What is the most common type of file server a. Windows Server b. Linux c. FreeNAS d. macOS Server >> a. Windows Server
+What type of synchronization method allows you to connect your mobile device to your computer and synchronize your data using a USB cable? a. USB synchronization b. All of the above c. Cloud synchronization d. Bluetooth synchronization >> a. USB synchronization
+What are some of the benefits of using a network monitoring server? a. Optimize network performance b. Plan for future network growth c. Identify and troubleshoot network problems d. All of the above >> d. All of the above
+What is the brain of the mobile device? a. Memory b. Display c. Storage d. Processor >> d. Processor
+What type of accessory allows you to expand the storage capacity of the mobile device? a. External storage b. Stylus pen c. Screen protector d. Case >> a. External storage
+What type of accessory allows you to interact with the mobile device more precisely? a. Case b. Stylus pen c. Screen protector d. External storage >> b. Stylus pen
+What type of memory stores the data and code that is being used by the processor? a. RAM b. ROM c. Display d. Storage >> a. RAM
+The battery provides power to the mobile device. True False >> True
+What type of accessory allows you to charge the mobile device on the go? a. Case b. Screen protector c. Stylus pen d. Portable charger >> d. Portable charger
+What is the purpose of a web server? a. To authenticate users and grant or deny access to resources b. To collect and analyze data about network traffic and performance c. To store and deliver web pages to users over the internet d. To manage printing jobs for users on a network >> c. To store and deliver web pages to users over the internet
+What type of business software helps businesses manage their customer interactions? a. CRM software b. All of the above c. SCM software d. ERP software >> a. CRM software
+What are some of the benefits of using an AAA server? a. All of the above b. Reduced IT costs c. Increased manageability d. Improved security >> a. All of the above
+Graphics and multimedia software can be used to create and edit images, videos, and audio files. True False >> True
+What type of synchronization service stores your data in the cloud and makes it available on all of your devices? a. USB synchronization b. Cloud synchronization c. All of the above d. Bluetooth synchronization >> b. Cloud synchronization
+What type of accessory protects the display of the mobile device from scratches and fingerprints? a. Case b. External storage c. Screen protector d. Stylus pen >> c. Screen protector
+What are some of the benefits of using a file server? a. Reduced IT costs b. Centralized file storage and backup c. Easier file sharing and collaborationEasier file sharing and collaboration d. All of the above >> d. All of the above
+What is the purpose of an email server? a. To collect and analyze data about network traffic and performance b. To store and forward email messages between users c. To authenticate users and grant or deny access to resources d. To manage printing jobs for users on a network >> b. To store and forward email messages between users
+Network monitoring servers can be used to monitor the performance of network devices, such as routers and switches. True False >> True
+What is the most popular web server software in the world? a. IIS b. Nginx c. Apache d. All of the above >> d. All of the above
+What is the main purpose of a file server? a. To manage printing jobs for users on a network b. To authenticate users and grant or deny access to resources c. To collect and analyze data about network traffic and performance d. To store and provide access to files for users on a network >> d. To store and provide access to files for users on a network
+CRM software is used to track and manage customer interactions. True False >> True
+AAA servers can be used to implement multi-factor authentication (MFA) to improve security. True False >> True
+What are some examples of popular email servers? a. Outlook.com b. All of the above c. Gmail d. Exchange >> b. All of the above
+It is important to only install apps from trusted sources, such as the official app stores for your device. True False >> True
+What is the most popular email server software for businesses? a. Google Workspace b. Microsoft Exchange c. All of the above d. Microsoft Office 365 >> d. Microsoft Office 365
+What is the purpose of a network monitoring server? a. To manage printing jobs for users on a network b. To authenticate users and grant or deny access to resources c. To store and forward email messages between users d. To collect and analyze data about network traffic and performance >> d. To collect and analyze data about network traffic and performance
+What type of app allows you to communicate with others, such as messaging apps, social media apps, and video conferencing apps? a. Business app b. Productivity app c. Communication app d. Entertainment app >> c. Communication app
+What is the most popular network monitoring server software? a. Zabbix b. Prometheus c. All of the above d. Nagios >> c. All of the above
